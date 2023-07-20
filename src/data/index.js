@@ -11,7 +11,7 @@ const newSpicyFoods = [
   { name: "5 Alarm Chili", cuisine: "American", heatLevel: 5 },
 ];
 
-// Get one random spicy food from the array
+
 function getNewRandomSpicyFood() {
   const index = Math.floor(Math.random() * newSpicyFoods.length);
   const newSpicyFood = { ...newSpicyFoods[index] };
